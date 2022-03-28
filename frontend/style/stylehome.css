@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2;
+    background-image: url(/frontend/image/cute.png);
+    background-size:1600px;
+    background-repeat: repeat-y;
+    
+
+}
+
+.p1 {    
+    color:aliceblue;
+    text-align: center;
+}
+
+.p2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.p3{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.menuNav{
+    position: relative;
+    overflow: hidden;
+}
+
+.isi{
+    padding: 200px 100px;
+    text-align: center;
+}
+
+section{
+    display:  flex;
+    text-align: center;
+    
+}
+
+.imgart{
+    width: 20%;
+}
+
+.artikel{
+    width: 50%;
+    padding-top: 300px;
+    text-align: center;
+    
+    
+}
+
+.artikel2{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.menuNav a{
+    float: right;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 35px;
+    text-decoration: none;
+}
+
+.menuNav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menuNav a.active{
+    background-color:hotpink;
+    color: aliceblue;
+}
+
+h1{
+   color: aliceblue; 
+}
+
+h2{
+    color: aliceblue;
+}
+
+.gambar{
+    float: left;
+    width: 75px;
+    margin-left: 30px;
+}
+
+button {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    padding: 25px;
+}

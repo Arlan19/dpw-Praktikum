@@ -1,0 +1,53 @@
+p{
+    color: aqua;
+    text-align: center;
+    /* text-decoration: underline ;untuk memberi style seperti underine */
+    
+}
+
+
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-variant: small-caps; 
+}
+
+.p1{
+  color:aquamarine;  
+}
+
+.p2, .p3{
+    color: brown;
+}
+
+
+
+#p2{
+    text-decoration: underline;
+}
+
+body{
+    background-color: blueviolet;
+    background-image: url(/frontend/image/logoInstagram.png);
+    background-repeat: repeat-x;
+}
+
+.container, .content{
+    color: chartreuse;
+    background-color: chocolate;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 180px;
+}
+
+ul, li, a:hover{
+    color: aliceblue;
+}
+
+li:active{
+    color: blue;
+}
